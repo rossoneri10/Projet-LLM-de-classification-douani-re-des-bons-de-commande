@@ -1,0 +1,21 @@
+# Données sensibles - ne jamais publier de vrais bons de commande / factures
+*.pdf
+*_rapport.json
+rapport_douanier.json
+
+# Bases de données volumineuses générées (partagez-les séparément si besoin, pas dans Git)
+nomenclature_douaniere.json
+nomenclature_douaniere_normalisee.json
+nomenclature_exploitable.json
+nomenclature_incomplete.json
+resultat*.txt
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# Système
+.DS_Store
+Thumbs.db
